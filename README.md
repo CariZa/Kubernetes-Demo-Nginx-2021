@@ -25,3 +25,7 @@ Run on kubernetes cluster:
 Port forward service:
 
     $ kubectl port-forward service/nginx-service 8005:80
+
+View the website:
+
+http://localhost:8005
