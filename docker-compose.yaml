@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+   nginx:
+     build: .
+     image: cariza/nginxtest:v1.0.1
+     restart: always
+     ports:
+       - "8000:80"
+
+volumes:
+    html:
